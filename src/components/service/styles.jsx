@@ -7,8 +7,12 @@ export const Service = styled.div`
     position: relative;
     display: flex;
     flex-direction: column;
+    height: 100%;
     gap: 0.5rem;
     width: 100%;
+    @media screen and (min-width: 768px) {
+        max-width: calc(33.3% - 1.5rem);
+    }
 
     img{
         position: absolute;
@@ -30,4 +34,6 @@ export const Service = styled.div`
         border: 1px solid var(--azulEscuro);
         border-radius: 5px;
     }
+
+    
 `

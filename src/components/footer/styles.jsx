@@ -17,10 +17,13 @@ export const Footer = styled.footer`
         display: flex;
         justify-content: center;
         align-items: center;
-        gap: 1rem;
+        gap: 0.5rem;
+    }
+    .container a{
+        display: flex;
     }
 
-    .container p{
+    .container a p{
         font-size: 1rem;
     }
 

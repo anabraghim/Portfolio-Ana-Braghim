@@ -7,15 +7,17 @@ export const ContainerTitles = styled.section`
     justify-content: center;
     align-items: center;
     gap: 1rem;
-
+    
+    @media (min-width: 768px) {
+        height: 40vh;
+            .title2{
+                font-size: 2rem;
+            }        
+        }
     .title2{
         font-size: 1.3rem;
     }
-    @media (min-width: 768px) {
-        .title2{
-            font-size: 2rem;
-        }        
-    }
+    
 `
 
 export const Title1 = styled.p`
@@ -46,12 +48,11 @@ export const Button = styled.button`
     height: 2.5em;
     border: 0;
     border-radius: 5px;
-    background: ${(props) => (props.color ? 'linear-gradient(to right, var(--rosaMedio), var(--azulEscuro));' : 'transparent')};
-    border: ${(props)=> (props.border ? '2px solid var(--branco)' : '0')};
+    background: ${(props) => (props.color? 'linear-gradient(to right, var(--rosaMedio), var(--azulEscuro));' : 'transparent')};
+    border: ${(props)=> (props.$border ? '2px solid var(--branco)' : '0')};
 `
 
 export const AboutMeSkills = styled.section`
-    /* background-color: red; */
     display: flex;
     flex-direction: column;
     gap: 1rem;
@@ -68,6 +69,8 @@ export const AboutMeSkills = styled.section`
         border-radius: 5px;
         padding: 1rem;
         gap: 1rem;
+        align-items: center;
+        
     }
     @media (min-width: 768px) {
         .AboutMeContainer{
@@ -80,51 +83,39 @@ export const AboutMeSkills = styled.section`
     }
 
     .AboutMeContainer img{
-        min-width: 100%;
-        max-width: 200px;
-        min-height: 100%;
-        max-height: 200px;
-        /* max-height: auto; */
+        width: 250px;
+        height: 250px;
         background-color: white;
+        border-radius: 5px;
     }
 
     .TextsAboutMe{
         display: flex;
         flex-direction: column;
+        align-self: start;
+        gap: 1rem;
+    }
+
+    .TextsAboutMe .name{
+        font-size: 1.5rem;
     }
 
     .Skills{
-        background-color: yellow;
         display: flex;
-        justify-content: stretch;
         width: 100%;
-        gap: 1rem;
+        gap: 10px;
         flex-wrap: wrap;
+        justify-content: center;
+        align-content: center;
     }
     @media (min-width: 768px) {
         .Skills{
-            width: 30%;
+            width: 40%;
         }
 
         .AboutMeContainer img{
             min-width: 40%;
         }   
-    }
-
-    .Skills .Skill{
-        width: calc((100 / 3)/100 - 2rem);
-        background-color: var(--cinzaMedio);
-        border-radius: 5px;
-        padding: 1rem;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-    .Skills .Skill img{
-        width: 10px;
-        height: 10px;
-        /* background-color: purple; */
     }
 `
 
@@ -133,19 +124,19 @@ export const ServicesContainer = styled.section`
     flex-direction: column;
     justify-content: center;
     gap: 3rem;
-    /* margin-top: 1rem; */
-    /* align-items: center; */
 
     .Services{
         display: flex;
         flex-direction: column;
         gap: 4rem;
+        
     }
 
     @media (min-width: 768px) {
         .Services{
             flex-direction: row;
             gap: 2rem;
+            flex-wrap: wrap;
         }
     }
 `
