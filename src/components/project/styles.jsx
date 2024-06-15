@@ -19,7 +19,9 @@ export const Project = styled.div`
         height: 200px;
         background-color: blue;
         border-radius: 5px;
+        object-fit: cover;
     }
+
     .container{
         display: flex;
         justify-content: space-between;

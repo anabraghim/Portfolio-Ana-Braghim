@@ -1,6 +1,7 @@
 import styled from "styled-components"
 
 export const Footer = styled.footer`
+    width: 100%;
     background-color: var(--cinzaMedio);
     display: flex;
     flex-direction: column;
@@ -24,7 +25,7 @@ export const Footer = styled.footer`
     }
 
     .container a p{
-        font-size: 1rem;
+        font-size: 0.8rem;
     }
 
     .container img{

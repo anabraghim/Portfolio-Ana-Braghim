@@ -1,14 +1,14 @@
 import React from "react";
 import { Service } from "./styles";
 
-export function ServiceComponent(){
+export function ServiceComponent({service}){
     return(
         <>
-            <Service>
+            <Service className='scale'>
                 <img src="src/assets/icons/service.svg" alt="ícone de serviço" />
-                <p className='title'>Lading Page</p>
-                <details>Frase rápida sobre lading page.</details>
-                <p className='valueService'>Valor médio R$ 300,00</p>
+                <p className='title'>{service.title}</p>
+                <details>{service.details}</details>
+                <p className='valueService'>Valor médio R$ {service.value}</p>
             </Service>
         </>
     )

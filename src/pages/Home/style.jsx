@@ -70,6 +70,7 @@ export const AboutMeSkills = styled.section`
         padding: 1rem;
         gap: 1rem;
         align-items: center;
+        /* height: 500px; */
         
     }
     @media (min-width: 768px) {

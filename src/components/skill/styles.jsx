@@ -10,10 +10,15 @@ export const Skill = styled.div`
     justify-content: center;
     align-items: center;
     gap: 0.5rem;
+    padding: 1rem;
 
     img{
         width: 5em;
         height: 5em;
-        background-color: purple;
+        object-fit: contain;
+    }
+    p{
+        font-size: 0.8rem;
+        text-align: center;
     }
 `

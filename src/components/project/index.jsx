@@ -1,15 +1,15 @@
 import React from "react";
 import { Project } from "./styles";
 
-export function ProjectComponent(){
+export function ProjectComponent({project}){
     
     return(
         <>
-        <Project className="project">
-            <img src="" alt="" />
+        <Project className="project scale">
+            <img src={project.urlImg} alt="" />
             <div className="container">
-                <p>Catálogo de doces</p>
-                <a href=""><button>Ver site</button></a>
+                <p>{project.title}</p>
+                <a href={project.urlButton}><button>Ver site</button></a>
             </div>
         </Project>
         </>

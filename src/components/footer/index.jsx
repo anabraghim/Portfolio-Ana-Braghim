@@ -9,13 +9,13 @@ export function FooterComponent(){
                     <img src="src/assets/icons/email.svg" alt="ícone de email" />
                     <p>anajuliabraghim@gmail.com</p>
                 </div>
-                <div className="container">
+                {/* <div className="container">
                     <a href=""><img src="src/assets/icons/phone.svg" alt="ícone de telefone" /></a>
                     <p>67 996485777</p>
-                </div>
+                </div> */}
                 <div className="container">
                     <a href=""><img src="src/assets/icons/copyright.svg" alt="ícone do copyright" /></a>
-                    <p>Todos os direitos reservador.</p>
+                    <p> 2024 Ana Braghim. Todos os direitos reservados.</p>
                 </div>
                 <div className="container">
                     <a href="https://www.instagram.com/anabraghim"><img src="src/assets/icons/instagram.svg" alt="ícone do Instagram" /></a>

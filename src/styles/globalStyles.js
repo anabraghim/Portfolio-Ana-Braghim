@@ -25,4 +25,18 @@ export const MyGlobalStyles = createGlobalStyle`
         margin-top: 4rem;
         margin: 3em auto;
     }
+
+    img{
+        object-fit: cover;
+    }
+
+    .scale{
+        transform: scale(1);
+        transition: transform 0.3s ease-in-out; 
+    }
+
+    .scale:hover{
+        transform: scale(1.02);
+        transition: 1s;
+    }
 `
