@@ -19,7 +19,7 @@ export function Home(){
                 <Title1>Como posso te <SpanTitle1>ajudar?</SpanTitle1></Title1>
                 <p className='title2'>Desenvolvimento de sites limpos, rápidos e funcionais.</p>
                 <ContainerButtons>
-                    <a href="public/resume.pdf"><Button className='scale' color="true">Baixar currículo</Button></a>
+                    <a href="/resume.pdf"><Button className='scale' color="true">Baixar currículo</Button></a>
                     <a href="mailto:anajuliabraghim@gmail.com"><Button className='scale' $border="true">Enviar email</Button></a>
                 </ContainerButtons>
             </ContainerTitles>
