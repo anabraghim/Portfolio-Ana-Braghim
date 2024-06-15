@@ -26,6 +26,7 @@ export const Footer = styled.footer`
 
     .container p{
         font-size: 0.8;
+        width: max-content;
     }
 
     .container img{
