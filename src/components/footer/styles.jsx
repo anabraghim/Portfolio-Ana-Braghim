@@ -24,8 +24,8 @@ export const Footer = styled.footer`
         display: flex;
     }
 
-    .container a p{
-        font-size: 0.5rem;
+    .container p{
+        font-size: 0.8;
     }
 
     .container img{
