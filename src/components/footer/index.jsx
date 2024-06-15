@@ -18,9 +18,9 @@ export function FooterComponent(){
                     <p> 2024 Ana Braghim. Todos os direitos reservados.</p>
                 </div>
                 <div className="container">
-                    <a href="https://www.instagram.com/anabraghim"><img src="src/assets/icons/instagram.svg" alt="ícone do Instagram" /></a>
-                    <a href="https://www.linkedin.com/in/anabraghim"><img src="src/assets/icons/linkedin.svg" alt="ícone do Linkedin" /></a>
-                    <a href="https://github.com/anabraghim"><img src="src/assets/icons/github.svg" alt="ícone do GitHub" /></a>
+                    <a href="https://www.instagram.com/anabraghim"><img src="./src/assets/icons/instagram.svg" alt="ícone do Instagram" /></a>
+                    <a href="https://www.linkedin.com/in/anabraghim"><img src="./src/assets/icons/linkedin.svg" alt="ícone do Linkedin" /></a>
+                    <a href="https://github.com/anabraghim"><img src="./src/assets/icons/github.svg" alt="ícone do GitHub" /></a>
                 </div>
            </Footer>
         </>
