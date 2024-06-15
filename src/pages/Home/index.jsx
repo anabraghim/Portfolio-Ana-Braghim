@@ -25,7 +25,7 @@ export function Home(){
             </ContainerTitles>
             <AboutMeSkills>
                 <div className="AboutMeContainer scale" >
-                    <img src="src/assets/images/anabraghim1.jpg" alt="foto de Ana Braghim" />
+                    <img src="/assets/images/anabraghim1.jpg" alt="foto de Ana Braghim" />
                     <div className="TextsAboutMe">
                         <p className='name'>Ana Júlia de Lima Braghim</p>
                         <p>Sou estudante de Sistemas de Informação na Universidade Federal de Mato Grosso do Sul (UFMS), com 19 anos e apaixonada pela área de desenvolvimento. Como desenvolvedora front-end freelancer, dedico-me a criar sites que não apenas funcionam perfeitamente, mas também proporcionam uma experiência de usuário excepcional. Busco uma oportunidade em uma empresa inovadora e dinâmica onde possa contribuir significativamente e crescer profissionalmente. Acredito que a organização e a fácil manutenção são a chave para projetos duradouros e de qualidade.</p>

@@ -6,15 +6,15 @@ export function FooterComponent(){
         <>
         <Footer>
                 <div className='container'>
-                    <img src="src/assets/icons/email.svg" alt="ícone de email" />
+                    <img src="/assets/icons/email.svg" alt="ícone de email" />
                     <p>anajuliabraghim@gmail.com</p>
                 </div>
                 {/* <div className="container">
-                    <a href=""><img src="src/assets/icons/phone.svg" alt="ícone de telefone" /></a>
+                    <a href=""><img src="assets/icons/phone.svg" alt="ícone de telefone" /></a>
                     <p>67 996485777</p>
                 </div> */}
                 <div className="container">
-                    <a href=""><img src="src/assets/icons/copyright.svg" alt="ícone do copyright" /></a>
+                    <a href=""><img src="/assets/icons/copyright.svg" alt="ícone do copyright" /></a>
                     <p> 2024 Ana Braghim. Todos os direitos reservados.</p>
                 </div>
                 <div className="container">
